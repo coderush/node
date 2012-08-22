@@ -1,4 +1,17 @@
-2012.08.15, Version 0.8.7 (Stable)
+2012.08.22, Version 0.8.8 (Stable)
+
+* 85161a8 (HEAD, v0.8.8-release) npm: upgrade to 1.1.58 (isaacs)
+* badbd1a tls: update default cipher list (Ben Noordhuis)
+* 2d92393 v8: upgrade to v3.11.10.19 (Bert Belder)
+* d38d7be unix: don't explicitly instantiate v8::Persistent<x> templates (Bert Belder)
+* b1ffbdc fs: fix use after free in stat watcher (Ben Noordhuis)
+* 0844e23 deps: upgrade libuv to 012cbda (Ben Noordhuis)
+* be3a77b build: don't use "-Wnewline-eof" on OS X (Nathan Rajlich)
+* 9918e5d windows: make junctions work again (Bert Belder)
+* 9263213 Avoid compiler warning about negating unsigned value (Bert Belder)
+* e8fd808 windows: avoid MSVC warnings about templates not having a dll interface (Bert Belder)
+
+2012.08.15, Version 0.8.7 (Stable), f640c5d35cba96634cd8176a525a1d876e361a61
 
 * npm: Upgrade to 1.1.49
 
